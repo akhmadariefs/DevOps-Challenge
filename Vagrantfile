@@ -13,7 +13,7 @@ config.vm.box = "bento/ubuntu-20.04"
   end
 config.vm.provider "virtualbox" do |vb|
 vb.memory = "1024"
-     vb.cpus = "1"
+     vb.cpus = "2"
    end
 config.vm.provision "shell", inline: <<-SHELL
      apt-get update
